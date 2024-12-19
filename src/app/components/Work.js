@@ -17,17 +17,18 @@ import nike from "../../../public/Images/nike.png"
 
 const Work = () => {
   return (
-      <section className='lg:px-24 md:px-12 px-6'>
-          <div className='flex lg:gap-32 lg:flex-nowrap flex-wrap lg:text-start text-center'>
+      <section className='px-6 xl:px-24 md:px-12'>
+          <div className='container mx-auto'>
+          <div className='flex flex-wrap text-center lg:gap-32 lg:flex-nowrap lg:text-start'>
           <div className='px-5'>
               <h1 className='lg:text-[64px] font-bold'>How it Works</h1>
               <p className='font-semi-bold text-[18px]'>We believe that the best way to create successful marketing<br/> 
                   campaigns is to work closely with our clients to understand<br/>
                    their goals and challenges.</p>
-                   <Image src={ workimg} className='lg:w-420 lg:h-311 mt-3 '/></div>
+                   <Image src={ workimg} className='mt-3 lg:w-420 lg:h-311 '/></div>
                    {/* right */}
-                   <div className='mt-6 lg:flex-nowrap flex-wrap' > 
-                       <div className='flex gap-2 lg:flex-nowrap flex-wrap flex items-center justify-center'>
+                   <div className='flex-wrap mt-6 lg:flex-nowrap' > 
+                       <div className='flex flex-wrap items-center justify-center gap-2 lg:flex-nowrap'>
                        <Image src={work2} className='lg:h-106 lg:w-106 '/>
                        <div>
                        <h1 className='font-semibold lg:text-[32px] text-[24]'>Discovery</h1>
@@ -35,7 +36,7 @@ const Work = () => {
                            and your target audience.</p>
                            </div>
                            </div>
-                           <div className='flex gap-2 mt-3 lg:flex-nowrap flex-wrap flex items-center justify-center '>
+                           <div className='flex flex-wrap items-center justify-center gap-2 mt-3 lg:flex-nowrap '>
                        <Image src={work3} className='lg:h-106 lg:w-106'/>
                        <div>
                        <h1 className='font-semibold lg:text-[32px] text-[24]'>Strategy</h1>
@@ -43,7 +44,7 @@ const Work = () => {
                        on your unique needs and goals.</p>
                            </div>
                            </div>
-                           <div className='flex gap-2 mt-3 lg:flex-nowrap flex-wrap flex items-center justify-center '>
+                           <div className='flex flex-wrap items-center justify-center gap-2 mt-3 lg:flex-nowrap '>
                        <Image src={work4} className='lg:h-106 lg:w-106'/>
                        <div>
                        <h1 className='font-semibold lg:text-[32px] text-[24]'>Execution</h1>
@@ -51,7 +52,7 @@ const Work = () => {
                            tools and techniques.</p>
                            </div>
                            </div>
-                           <div className='flex gap-2 mt-3 lg:flex-nowrap flex-wrap flex items-center justify-center'>
+                           <div className='flex flex-wrap items-center justify-center gap-2 mt-3 lg:flex-nowrap'>
                        <Image src={work5} className='lg:h-106 lg:w-106 '/>
                        <div>
                        <h1 className='font-semibold lg:text-[32px] text-[24]'>Measurement</h1>
@@ -65,7 +66,7 @@ const Work = () => {
                    <div className='py-12'>
                        <h1 className='lg:text-[64px] text-32 text-center'>OurWork</h1>
                        <p className='font-semibold text-[18px] text-center'>A glimpse of our portfolio</p>
-                       <div className='flex gap-4 py-6 lg:flex-nowrap flex-wrap lg:text-start text-center'>
+                       <div className='flex flex-wrap gap-4 py-6 text-center lg:flex-nowrap lg:text-start'>
                            <Image src={apple}className=' lg:h-[378px] lg:w-[400px] md:h-[300px] md:w-[310px] h-[250px] w-[260px]'/>
                            <Image src={cocacola} className= 'lg:h-[378px] lg:w-[400px] md:h-[300px] md:w-[310px] h-[250px] w-[260px]'/>
                            <Image src={nike} className='lg:h-[378px] lg:w-[400px] md:h-[300px] md:w-[310px] h-[250px] w-[260px]'/></div>
@@ -74,16 +75,17 @@ const Work = () => {
                    </div>
                    {/* work last Section */}
                    <div className='py-12'>
-                   <div className='lg:w-[1200px] md:w-[500px] w-[290px] lg:h-[371px] md:h-[300px] h-[250px] bg-[#3561FF] rounded-[32px]'>
-                       <div className='text-white py-12 flex items-center justify-center space-x-6 lg:flex-nowrap flex-wrap '>
+                   <div className='lg:w-[1200px]  md:w-[700px]   lg:h-[371px] md:h-[300px] h-[250px] bg-[#3561FF] rounded-[32px]'>
+                       <div className='flex flex-wrap items-center justify-center py-12 space-x-6 text-white lg:flex-nowrap '>
                        <p className='lg:text-[64px]'>Elevate your<br/>brand Today!</p>
                        <div className='lg:px-24'>
                        <p className='lg:text-[20px]'>Ready to transform your digital dresence? Let's <br/>
                        create magic together! book our services now!</p>
-                       <button className='bg-white lg:mt-12 px-4 py-2 text-black rounded-2xl'>Book Call</button>
+                       <button className='px-4 py-2 text-black bg-white lg:mt-12 rounded-2xl'>Book Call</button>
                        </div>
 </div>
                    </div>
+                </div>
                 </div>
       </section>
     

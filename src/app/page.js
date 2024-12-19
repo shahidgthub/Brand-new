@@ -4,7 +4,7 @@ import About from './components/About'
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
 import Home from './components/Home'
-import Team from './components/Team'
+ import Team from './components/Team'
 import Work from './components/Work'
 
 const page = () => {

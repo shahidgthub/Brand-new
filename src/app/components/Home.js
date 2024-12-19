@@ -21,8 +21,8 @@ const Home = () => {
             <p className='lg:text-[70px] md:text-[40px] text-[20px] font-bold'>We Take<br/> Care of<br/> 
 Your Brand</p>
 <p className='lg:text-[20px] text-[14px] font-semibold lg:py-12'>We care about our work and we care about our clients.</p>
-<div className=' flex gap-6 py-6 lg:flex-nowrap flex-wrap '>
-<button className='border lg:px-10  px-6 lg:py-2  rounded-full bg-[#FAFAFA]'> Enter Your Email</button>
+<div className=' flex gap-6 py-6 lg:flex-nowrap flex-wraplg:text-start text-center'>
+<button className='border lg:px-10  md:px-6 lg:py-2  rounded-full bg-[#FAFAFA]'> Enter Your Email</button>
 <button className='text-white bg-[#3461FF] px-6  py-2 rounded-2xl'> LetTalk</button>
 </div>
 </div>

@@ -14,7 +14,7 @@ export const Footer = () => {
   return (
     <section className='lg:px-24 md:px-12 px-6'>
 
-<div className='grid grid-cols-1 md:grid-cols-5  bg-[#FAFAFA] mt-6'>
+<div className='grid grid-cols-1 md:grid-cols-5  bg-[#FAFAFA] mt-6 lg:text-start text-center'>
     <div className='flex flex-col px-6'>
         <div className='flex items-center justify-center mb-4 '>
             <div className='flex'>
